@@ -104,13 +104,34 @@ button:hover span{
 button:hover{
     border:none;
 }
+button:after{
+    content: none;
+}
+.name:hover:after{
+    content:attr(data-hover)
+}
+.birthday:hover:after{
+    content:attr(data-hover)
+}
+.address:hover:after{
+    content:attr(data-hover)
+}
+.hobbies:hover:after{
+    content:attr(data-hover)
+}
+.course:hover:after{
+    content:attr(data-hover)
+}
+.school:hover:after{
+    content:attr(data-hover)
+}
 </style>
 <body>
     <div class="banner">
         <div class="navbar">
             <img src="logo.png" alt="MyLogo" class="logo">
             <ul>
-                <li> <a href="index.html">Home</a></li>
+                <li> <a href="cjpn_index.html">Home</a></li>
             </ul>
         </div>
 
@@ -119,12 +140,12 @@ button:hover{
             <p>Hover each button to know more about me</p>
 
             <div>
-                <a href="randompics.html"><button type="button" class="name" data-hover="Carl Jefferson Non">  <span></span>NAME</button></a>
-                <a href="message.html"><button type="button" class="birthday" data-hover="September 14, 2000"> <span></span>BIRTHDAY</button></a>
-                <a href="#"><button type="button" class="address" data-hover="Parsolingan, Gerona, Tarlac"><span></span>ADDRESS</button></a>
-                <a href="#"><button type="button" class="hobbies" data-hover="Watching Movies, Working out, and Playing Basketball"> <span></span>HOBBIES</button></a>
-                <a href="#"><button type="button"class="course" data-hover="Bachelor of Science in Information Technology"> <span></span>COURSE</button></a>
-                <a href="#"><button type="button" class="school" data-hover="Tarlac State University"> <span></span>SCHOOL</button></a>
+                <a href="randompics.html"><button type="button" class="name" data-hover=": Carl Jefferson Non">  <span></span>NAME</button></a>
+                <a href="message.html"><button type="button" class="birthday" data-hover=": September 14, 2000"> <span></span>BIRTHDAY</button></a>
+                <a href="#"><button type="button" class="address" data-hover=": Parsolingan, Gerona, Tarlac"><span></span>ADDRESS</button></a>
+                <a href="#"><button type="button" class="hobbies" data-hover=": Watching Movies, Working out, and Playing Basketball"> <span></span>HOBBIES</button></a>
+                <a href="#"><button type="button"class="course" data-hover=": Bachelor of Science in Information Technology"> <span></span>COURSE</button></a>
+                <a href="#"><button type="button" class="school" data-hover=": Tarlac State University"> <span></span>SCHOOL</button></a>
             </div>
         </div>
 
